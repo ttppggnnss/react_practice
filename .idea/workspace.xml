@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="846ff9b6-be64-4ac9-9cf1-e54521fbb1ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/my-app01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/example/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/example/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/example/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/example/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/example/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/example/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/example/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/example/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app01/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hY8n1P1gW8sEhvFI9Va2zmSuDO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="846ff9b6-be64-4ac9-9cf1-e54521fbb1ff" name="Default Changelist" comment="" />
+      <created>1600176828597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600176828597</updated>
+    </task>
+    <servers />
+  </component>
+</project>
