@@ -1,0 +1,35 @@
+.bcoach {
+  color: white;
+}
+
+.best-coach {
+  object-fit: contain;
+  height: 800px;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.bcoach__contents {
+  margin-left: 30px;
+  padding-top: 180px;
+  height: 190px;
+}
+
+.bcoach__title {
+  color: red;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.bcoach__subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.bcoach__description {
+  line-height: 1.3;
+  font-size: 0.8rem;
+}

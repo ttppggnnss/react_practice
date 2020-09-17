@@ -1,11 +1,12 @@
-import React, { useRef } from "react";
+import React, { useCallback, useRef } from "react";
 
 function CreateUser({ username, email, onChange, onCreate }) {
   const nameInput = useRef();
 
-  const onFocus = () => {
+  const onFocus = useCallback(() => {
     nameInput.current.focus();
-  };
+  }, [nameInput]);
+
   return (
     <div>
       <input
@@ -39,4 +40,8 @@ function CreateUser({ username, email, onChange, onCreate }) {
   );
 }
 
-export default CreateUser;
+export default React.memo(
+  CreateUser
+  // (prevProps, nextProps) => nextProps.users === prevProps.users
+);
+// React.memo 를 감싸주면 props 가 바뀌었을 때만 rerendering 해준다

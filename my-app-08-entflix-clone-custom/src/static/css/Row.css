@@ -1,0 +1,39 @@
+.row {
+  margin-left: 20px;
+  color: white;
+}
+
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+/* 공통 부분을 먼저 써주고 */
+.row__poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 200px;
+  margin-right: 20px;
+  transition: transform 450ms;
+}
+
+.row__poster:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* row__posterLarge 가 row__poster 보다 아래로 가야한다 */
+.row__posterLarge {
+  max-height: 250px;
+  padding: 30px 0px;
+  margin-right: 20px;
+}
+
+.row__posterLarge:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
