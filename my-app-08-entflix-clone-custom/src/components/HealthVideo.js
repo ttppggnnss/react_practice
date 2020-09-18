@@ -3,7 +3,7 @@ import axios from "axios";
 import "../static/css/Row.css";
 import YouTube from "react-youtube";
 
-const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
+const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY2;
 
 function HealthVideo({ title, keyword, isLargeRow }) {
   const [videos, setVideos] = useState([]);

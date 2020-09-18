@@ -1,11 +1,34 @@
-import React, { useCallback, useRef } from "react";
+import React, { useCallback, useContext, useRef } from "react";
+import useInputs from "./useInputs";
+import { UserDispatch } from "./UserListApp";
 
-function CreateUser({ username, email, onChange, onCreate }) {
+function CreateUser() {
+  const [{ username, email }, onChange, reset] = useInputs({
+    username: "",
+    email: "",
+  });
+
+  const nextId = useRef(4);
+  const dispatch = useContext(UserDispatch);
+
   const nameInput = useRef();
 
   const onFocus = useCallback(() => {
     nameInput.current.focus();
   }, [nameInput]);
+
+  const onCreate = () => {
+    dispatch({
+      type: "CREATE_USER",
+      user: {
+        id: nextId.current,
+        username,
+        email,
+      },
+    });
+    reset();
+    nextId.current += 1;
+  };
 
   return (
     <div>

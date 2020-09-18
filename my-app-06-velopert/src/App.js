@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Counter from "./components/Counter";
 import InputSample from "./components/InputSample";
 import UserListApp from "./components/UserListApp";
+import ContextSample from "./components/ContextSample";
 
 export default function App() {
   return (
@@ -35,6 +36,14 @@ export default function App() {
             03 UserList
           </Link>
         </li>
+        <li>
+          <Link
+            to="/contextsample"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            04 Context Sample
+          </Link>
+        </li>
       </ul>
       <hr />
       <Switch>
@@ -46,6 +55,9 @@ export default function App() {
         </Route>
         <Route path="/userlistapp">
           <UserListApp />
+        </Route>
+        <Route path="/contextsample">
+          <ContextSample />
         </Route>
       </Switch>
     </Router>
